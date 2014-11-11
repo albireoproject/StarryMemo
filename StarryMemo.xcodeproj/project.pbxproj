@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB6B23DD1A121AE50035317E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B23DC1A121AE50035317E /* AppDelegate.swift */; };
+		FB6B23DF1A121AE50035317E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B23DE1A121AE50035317E /* ViewController.swift */; };
+		FB6B23E21A121AE50035317E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6B23E01A121AE50035317E /* Main.storyboard */; };
+		FB6B23E41A121AE50035317E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6B23E31A121AE50035317E /* Images.xcassets */; };
+		FB6B23E71A121AE50035317E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6B23E51A121AE50035317E /* LaunchScreen.xib */; };
+		FB6B23F31A121AE50035317E /* StarryMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B23F21A121AE50035317E /* StarryMemoTests.swift */; };
+		FB6B24021A1227860035317E /* barnard33_20141012.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6B23FD1A1227860035317E /* barnard33_20141012.png */; };
+		FB6B24041A1227860035317E /* ngc1977_20141018.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6B23FF1A1227860035317E /* ngc1977_20141018.png */; };
+		FB6B24051A1227860035317E /* ngc281_20141018.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6B24001A1227860035317E /* ngc281_20141018.png */; };
+		FB6B24071A1228AA0035317E /* ngc7023_20140803.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6B24061A1228AA0035317E /* ngc7023_20140803.png */; };
+		FB6B24091A1228B70035317E /* c2014e2jacques_20140729.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6B24081A1228B70035317E /* c2014e2jacques_20140729.png */; };
+		FB6B240B1A122D990035317E /* jupiter_20121002.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6B240A1A122D990035317E /* jupiter_20121002.png */; };
+		FB6B240D1A122F1A0035317E /* saturn_20130504.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6B240C1A122F1A0035317E /* saturn_20130504.png */; };
+		FB6B240F1A1230D90035317E /* StarryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6B240E1A1230D90035317E /* StarryObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB6B23ED1A121AE50035317E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB6B23CF1A121AE50035317E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB6B23D61A121AE50035317E;
+			remoteInfo = StarryMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB6B23D71A121AE50035317E /* StarryMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarryMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6B23DB1A121AE50035317E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6B23DC1A121AE50035317E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB6B23DE1A121AE50035317E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB6B23E11A121AE50035317E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB6B23E31A121AE50035317E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB6B23E61A121AE50035317E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB6B23EC1A121AE50035317E /* StarryMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarryMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6B23F11A121AE50035317E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6B23F21A121AE50035317E /* StarryMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarryMemoTests.swift; sourceTree = "<group>"; };
+		FB6B23FD1A1227860035317E /* barnard33_20141012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barnard33_20141012.png; sourceTree = "<group>"; };
+		FB6B23FF1A1227860035317E /* ngc1977_20141018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ngc1977_20141018.png; sourceTree = "<group>"; };
+		FB6B24001A1227860035317E /* ngc281_20141018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ngc281_20141018.png; sourceTree = "<group>"; };
+		FB6B24061A1228AA0035317E /* ngc7023_20140803.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ngc7023_20140803.png; sourceTree = "<group>"; };
+		FB6B24081A1228B70035317E /* c2014e2jacques_20140729.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c2014e2jacques_20140729.png; sourceTree = "<group>"; };
+		FB6B240A1A122D990035317E /* jupiter_20121002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jupiter_20121002.png; sourceTree = "<group>"; };
+		FB6B240C1A122F1A0035317E /* saturn_20130504.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saturn_20130504.png; sourceTree = "<group>"; };
+		FB6B240E1A1230D90035317E /* StarryObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarryObject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB6B23D41A121AE50035317E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6B23E91A121AE50035317E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB6B23CE1A121AE50035317E = {
+			isa = PBXGroup;
+			children = (
+				FB6B23D91A121AE50035317E /* StarryMemo */,
+				FB6B23EF1A121AE50035317E /* StarryMemoTests */,
+				FB6B23D81A121AE50035317E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB6B23D81A121AE50035317E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B23D71A121AE50035317E /* StarryMemo.app */,
+				FB6B23EC1A121AE50035317E /* StarryMemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6B23D91A121AE50035317E /* StarryMemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B23DC1A121AE50035317E /* AppDelegate.swift */,
+				FB6B23DE1A121AE50035317E /* ViewController.swift */,
+				FB6B240E1A1230D90035317E /* StarryObject.swift */,
+				FB6B23E01A121AE50035317E /* Main.storyboard */,
+				FB6B23E31A121AE50035317E /* Images.xcassets */,
+				FB6B23E51A121AE50035317E /* LaunchScreen.xib */,
+				FB6B23DA1A121AE50035317E /* Supporting Files */,
+			);
+			path = StarryMemo;
+			sourceTree = "<group>";
+		};
+		FB6B23DA1A121AE50035317E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B24061A1228AA0035317E /* ngc7023_20140803.png */,
+				FB6B240A1A122D990035317E /* jupiter_20121002.png */,
+				FB6B24081A1228B70035317E /* c2014e2jacques_20140729.png */,
+				FB6B240C1A122F1A0035317E /* saturn_20130504.png */,
+				FB6B23FD1A1227860035317E /* barnard33_20141012.png */,
+				FB6B23FF1A1227860035317E /* ngc1977_20141018.png */,
+				FB6B24001A1227860035317E /* ngc281_20141018.png */,
+				FB6B23DB1A121AE50035317E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB6B23EF1A121AE50035317E /* StarryMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B23F21A121AE50035317E /* StarryMemoTests.swift */,
+				FB6B23F01A121AE50035317E /* Supporting Files */,
+			);
+			path = StarryMemoTests;
+			sourceTree = "<group>";
+		};
+		FB6B23F01A121AE50035317E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B23F11A121AE50035317E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB6B23D61A121AE50035317E /* StarryMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6B23F61A121AE50035317E /* Build configuration list for PBXNativeTarget "StarryMemo" */;
+			buildPhases = (
+				FB6B23D31A121AE50035317E /* Sources */,
+				FB6B23D41A121AE50035317E /* Frameworks */,
+				FB6B23D51A121AE50035317E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarryMemo;
+			productName = StarryMemo;
+			productReference = FB6B23D71A121AE50035317E /* StarryMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB6B23EB1A121AE50035317E /* StarryMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6B23F91A121AE50035317E /* Build configuration list for PBXNativeTarget "StarryMemoTests" */;
+			buildPhases = (
+				FB6B23E81A121AE50035317E /* Sources */,
+				FB6B23E91A121AE50035317E /* Frameworks */,
+				FB6B23EA1A121AE50035317E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB6B23EE1A121AE50035317E /* PBXTargetDependency */,
+			);
+			name = StarryMemoTests;
+			productName = StarryMemoTests;
+			productReference = FB6B23EC1A121AE50035317E /* StarryMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB6B23CF1A121AE50035317E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Hongsun Yoon, M.D.";
+				TargetAttributes = {
+					FB6B23D61A121AE50035317E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FB6B23EB1A121AE50035317E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FB6B23D61A121AE50035317E;
+					};
+				};
+			};
+			buildConfigurationList = FB6B23D21A121AE50035317E /* Build configuration list for PBXProject "StarryMemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB6B23CE1A121AE50035317E;
+			productRefGroup = FB6B23D81A121AE50035317E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6B23D61A121AE50035317E /* StarryMemo */,
+				FB6B23EB1A121AE50035317E /* StarryMemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB6B23D51A121AE50035317E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6B24051A1227860035317E /* ngc281_20141018.png in Resources */,
+				FB6B23E21A121AE50035317E /* Main.storyboard in Resources */,
+				FB6B24021A1227860035317E /* barnard33_20141012.png in Resources */,
+				FB6B24091A1228B70035317E /* c2014e2jacques_20140729.png in Resources */,
+				FB6B240B1A122D990035317E /* jupiter_20121002.png in Resources */,
+				FB6B240D1A122F1A0035317E /* saturn_20130504.png in Resources */,
+				FB6B24071A1228AA0035317E /* ngc7023_20140803.png in Resources */,
+				FB6B23E71A121AE50035317E /* LaunchScreen.xib in Resources */,
+				FB6B24041A1227860035317E /* ngc1977_20141018.png in Resources */,
+				FB6B23E41A121AE50035317E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6B23EA1A121AE50035317E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB6B23D31A121AE50035317E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6B23DF1A121AE50035317E /* ViewController.swift in Sources */,
+				FB6B240F1A1230D90035317E /* StarryObject.swift in Sources */,
+				FB6B23DD1A121AE50035317E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6B23E81A121AE50035317E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6B23F31A121AE50035317E /* StarryMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB6B23EE1A121AE50035317E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB6B23D61A121AE50035317E /* StarryMemo */;
+			targetProxy = FB6B23ED1A121AE50035317E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB6B23E01A121AE50035317E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6B23E11A121AE50035317E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB6B23E51A121AE50035317E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6B23E61A121AE50035317E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB6B23F41A121AE50035317E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB6B23F51A121AE50035317E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB6B23F71A121AE50035317E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarryMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB6B23F81A121AE50035317E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarryMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB6B23FA1A121AE50035317E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarryMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarryMemo.app/StarryMemo";
+			};
+			name = Debug;
+		};
+		FB6B23FB1A121AE50035317E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarryMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarryMemo.app/StarryMemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB6B23D21A121AE50035317E /* Build configuration list for PBXProject "StarryMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6B23F41A121AE50035317E /* Debug */,
+				FB6B23F51A121AE50035317E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6B23F61A121AE50035317E /* Build configuration list for PBXNativeTarget "StarryMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6B23F71A121AE50035317E /* Debug */,
+				FB6B23F81A121AE50035317E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB6B23F91A121AE50035317E /* Build configuration list for PBXNativeTarget "StarryMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6B23FA1A121AE50035317E /* Debug */,
+				FB6B23FB1A121AE50035317E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB6B23CF1A121AE50035317E /* Project object */;
+}
